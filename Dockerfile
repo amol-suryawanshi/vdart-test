@@ -1,11 +1,11 @@
 FROM alpine
 
-RUN mkdir -p /usr/app/accurics-service/.
-WORKDIR /usr/app/accurics-service/.
+RUN mkdir -p /usr/app/vdart-service/.
+WORKDIR /usr/app/vdart-service/.
 
-COPY accurics-service .
+COPY vdart-service .
 COPY config.json ./config.json
 
 RUN apk --no-cache add ca-certificates
 
-CMD ["./accurics-service"]
+CMD ["./vdart-service"]
