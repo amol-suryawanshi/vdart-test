@@ -1,0 +1,13 @@
+{
+    "baseURL":"https://api.hitbtc.com",
+    "currencies":[
+        {
+            "currency" : "ETH",
+            "symbol" : "ETHBTC"
+        },
+        {
+            "currency" : "BTC",
+            "symbol" : "BTCUSD"
+        }
+    ]
+}
